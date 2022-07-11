@@ -1,0 +1,222 @@
+/*
+#315299 BLUE
+#cead66 YELLOW
+
+#8eaae5 ANLAOG 1
+#697eaa ANALOG 2
+
+#fcfcfc WHITE COLOR
+#4b4a48 GRAY COLOR
+#090b0b BLACK COLOR
+*/
+
+
+/*----->SECTIONS*/
+
+/*----->ALL*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #090b0b;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*----->NAV*/
+nav {
+    background-color: #fcfcfc;
+}
+
+.logo {
+    color: #000000;
+    width: 100px;
+}
+
+/*----->BODY*/
+body {
+    background-color: #315299;
+}
+
+/*----->FOOTER*/
+footer {
+    background-color: #fcfcfc;
+}
+
+#work_together {
+    font-size: 16px;
+
+}
+
+.footer_data {
+    color: #315299;
+    font-weight: bold;
+}
+
+#email {
+    color: #cead66;
+    border-bottom: 1px solid #cead66;
+}
+
+.social_networks_ul {
+    list-style: none;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 4px 0;
+    margin: 0;
+}
+
+.social_networks_a {
+    padding: 0 20px;
+}
+
+.ig:hover {
+    color: #E1306C;
+}
+
+.tw:hover {
+    color: #00acee;
+}
+
+.li:hover {
+    color: #0e76a8;
+}
+
+.footer_menu_a {
+    padding: 0 10px;
+    font-size: 15px;
+    color: #4b4a48;
+}
+
+.footer_menu_a:hover {
+    color: #cead66;
+}
+
+.made_by {
+    font-size: 13px;
+}
+
+
+/*-----> MEDIAQUERIES*/
+/* X-S devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #img_frame {
+        width: 280px;
+    }
+
+    /*----->Footer*/
+    #work_together{
+        font-size: 17px;
+    }
+
+    .footer_data {
+        font-size: 20px;
+    }
+
+    #email {
+        font-size: 19px;
+    }
+    
+    .social_networks_ul {
+        font-size: 32px;
+    }
+
+    .footer_menu_a {
+        font-size: 13px;
+    }
+
+}
+
+/* S devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #work_together{
+        font-size: 21px;
+    }
+
+    .footer_data {
+        font-size: 20px;
+    }
+
+    #email {
+        font-size: 20px;
+    }
+    
+    .social_networks_ul {
+        font-size: 34px;
+    }
+}
+
+/* MD devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*----->FOOTER*/
+    #work_together{
+        font-size: 23px;
+    }
+
+    .footer_data {
+        font-size: 22px;
+    }
+
+    #email {
+        font-size: 21px;
+    }
+    
+    .social_networks_ul {
+        font-size: 39px;
+    }
+
+    .footer_menu_a{
+        font-size: 16px;
+    }
+
+}
+
+/* L devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*----->FOOTER*/
+    .footer_data {
+        font-size: 26px;
+    }
+
+    #email {
+        font-size: 21px;
+    }
+
+    .social_networks_ul {
+        font-size: 43px;
+    }
+}
+
+/* X-L devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+    /*----->FOOTER*/
+    #work_together {
+        font-size: 16px;
+    }
+
+    .footer_data {
+        font-size: 27px;
+    }
+
+    #email {
+        font-size: 25px;
+    }
+
+    .social_networks_ul {
+        font-size: 46px;
+    }
+
+    .footer_menu_a{
+        font-size: 17px;
+    }
+}
